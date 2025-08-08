@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق العيادة</string>
+    
+    <!-- Navigation -->
+    <string name="nav_patients">المرضى</string>
+    <string name="nav_appointments">المواعيد</string>
+    <string name="nav_doctors">الأطباء</string>
+    <string name="nav_users">المستخدمون</string>
+    <string name="nav_reports">التقارير</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_chat">الدردشة</string>
+    <string name="nav_audit_log">سجل التدقيق</string>
+    
+    <!-- Common -->
+    <string name="search">البحث</string>
+    <string name="add">إضافة</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="error">خطأ</string>
+    <string name="success">نجح</string>
+    <string name="active">نشط</string>
+    <string name="inactive">غير نشط</string>
+    <string name="online">متصل</string>
+    <string name="offline">غير متصل</string>
+    
+    <!-- Patient -->
+    <string name="patient_name">اسم المريض</string>
+    <string name="patient_phone">رقم الهاتف</string>
+    <string name="patient_age">العمر</string>
+    <string name="patient_last_visit">آخر زيارة</string>
+    <string name="add_patient">إضافة مريض</string>
+    <string name="edit_patient">تعديل المريض</string>
+    <string name="delete_patient">حذف المريض</string>
+    <string name="patient_record">سجل المريض</string>
+    <string name="search_patients">البحث في المرضى</string>
+    
+    <!-- Appointment -->
+    <string name="appointment_date">تاريخ الموعد</string>
+    <string name="appointment_time">وقت الموعد</string>
+    <string name="appointment_doctor">الطبيب</string>
+    <string name="appointment_reason">سبب الزيارة</string>
+    <string name="appointment_status">حالة الموعد</string>
+    <string name="appointment_cost">التكلفة</string>
+    <string name="add_appointment">إضافة موعد</string>
+    <string name="edit_appointment">تعديل الموعد</string>
+    <string name="delete_appointment">حذف الموعد</string>
+    <string name="reschedule_appointment">إعادة جدولة الموعد</string>
+    
+    <!-- Doctor -->
+    <string name="doctor_name">اسم الطبيب</string>
+    <string name="doctor_specialization">التخصص</string>
+    <string name="doctor_phone">رقم الهاتف</string>
+    <string name="doctor_email">البريد الإلكتروني</string>
+    <string name="add_doctor">إضافة طبيب</string>
+    <string name="edit_doctor">تعديل الطبيب</string>
+    <string name="delete_doctor">حذف الطبيب</string>
+    <string name="activate_doctor">تفعيل الطبيب</string>
+    <string name="deactivate_doctor">إلغاء تفعيل الطبيب</string>
+    
+    <!-- User -->
+    <string name="user_name">اسم المستخدم</string>
+    <string name="user_email">البريد الإلكتروني</string>
+    <string name="user_role">الدور</string>
+    <string name="user_permissions">الصلاحيات</string>
+    <string name="add_user">إضافة مستخدم</string>
+    <string name="edit_user">تعديل المستخدم</string>
+    <string name="delete_user">حذف المستخدم</string>
+    <string name="activate_user">تفعيل المستخدم</string>
+    <string name="deactivate_user">إلغاء تفعيل المستخدم</string>
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="manage_permissions">إدارة الصلاحيات</string>
+    
+    <!-- Roles -->
+    <string name="role_admin">مدير النظام</string>
+    <string name="role_doctor">طبيب</string>
+    <string name="role_nurse">ممرض/ة</string>
+    <string name="role_receptionist">موظف استقبال</string>
+    <string name="role_accountant">محاسب</string>
+    
+    <!-- Status -->
+    <string name="status_scheduled">مجدول</string>
+    <string name="status_completed">مكتمل</string>
+    <string name="status_canceled">ملغي</string>
+    <string name="status_waiting">منتظر</string>
+    <string name="status_return">عودة</string>
+    
+    <!-- Reports -->
+    <string name="generate_report">إنشاء تقرير</string>
+    <string name="export_report">تصدير التقرير</string>
+    <string name="schedule_report">جدولة التقرير</string>
+    <string name="report_patients">تقرير المرضى</string>
+    <string name="report_appointments">تقرير المواعيد</string>
+    <string name="report_revenue">تقرير الإيرادات</string>
+    <string name="report_doctors">تقرير الأطباء</string>
+    <string name="report_audit">تقرير التدقيق</string>
+    
+    <!-- Audit Log -->
+    <string name="audit_action">الإجراء</string>
+    <string name="audit_user">المستخدم</string>
+    <string name="audit_entity">الكيان</string>
+    <string name="audit_timestamp">الوقت</string>
+    <string name="audit_details">التفاصيل</string>
+    
+    <!-- Login -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="login_error">خطأ في تسجيل الدخول</string>
+    
+    <!-- Chat -->
+    <string name="chat">الدردشة</string>
+    <string name="send_message">إرسال رسالة</string>
+    <string name="type_message">اكتب رسالة...</string>
+    
+    <!-- Notifications -->
+    <string name="default_notification_channel_id">clinic_notifications</string>
+    
+    <!-- Errors -->
+    <string name="error_network">خطأ في الشبكة</string>
+    <string name="error_unknown">خطأ غير معروف</string>
+    <string name="error_permission">ليس لديك صلاحية للقيام بهذا الإجراء</string>
+    <string name="error_user_not_found">المستخدم غير موجود</string>
+    <string name="error_invalid_credentials">بيانات الدخول غير صحيحة</string>
+    
+    <!-- Success Messages -->
+    <string name="success_user_added">تم إضافة المستخدم بنجاح</string>
+    <string name="success_user_updated">تم تحديث المستخدم بنجاح</string>
+    <string name="success_user_deleted">تم حذف المستخدم بنجاح</string>
+    <string name="success_password_reset">تم إعادة تعيين كلمة المرور بنجاح</string>
+    <string name="success_doctor_added">تم إضافة الطبيب بنجاح</string>
+    <string name="success_doctor_updated">تم تحديث الطبيب بنجاح</string>
+    <string name="success_report_generated">تم إنشاء التقرير بنجاح</string>
+</resources>
+
